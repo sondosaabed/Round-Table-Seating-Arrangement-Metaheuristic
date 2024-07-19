@@ -1,8 +1,10 @@
 # Round-Table-Seating-Arrangement-Metaheuristic
- Round table arrangemnet solution using Genetic Algorithm, Simulated Annealing, and Hill Climbing (Metaheuristic)
+the Round Table Seating arrangemnet is approached diffrently formulated as a search problem. The approchaes are ucs, greedy and A* searches. Then a comparison is made between them. Throughout this report, the theory, implemnattions, discussion and conclusion are presented. It is required that rach person should be seated next to their neighbors on the left and right to facilitate conversation. It also should form a closed loop, as it is a round table.
 
 ## Graph represntation of hate matrix
-![image](https://github.com/user-attachments/assets/77959655-a370-4420-a843-c366e16d0a37)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/77959655-a370-4420-a843-c366e16d0a37" height="500"/>
+</div>
 
 ## Algorthims Comparision
 
@@ -17,4 +19,7 @@
 ## Conclusion
 In conclusion, the objectives are met where three algorithms were implemnted to find the optimal round arrangement. The implemnations were called and evaluated mainly based on the minimum cost that they had. While all of them had find an arrangemnt the best algothim in terms of the minimum cost was the hill climbing algorithm, then followed by the Genetic and the worst one was the simulated annealing algorithm.
 So the final seating arrangemnet was chosen to be the one that simulated annealing algorthim obtained, which is the minumum conflict between seats. Folwoing is it's visulization:
-![image](https://github.com/user-attachments/assets/96fa9f1d-cc4e-4720-a9e2-b84fd4531e9e)
+
+<div align="center" >
+<img src="https://github.com/user-attachments/assets/96fa9f1d-cc4e-4720-a9e2-b84fd4531e9e" height="500"/>
+</div>
